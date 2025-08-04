@@ -1,5 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import styled from "styled-components";
+import Map from "./pages/KaKaoMap";
+import KakaoMap from "./pages/KaKaoMap";
 
 function App() {
   return (
@@ -17,6 +20,8 @@ function App() {
         >
           베포서버 테스트
         </a>
+
+        <KakaoMap />
       </header>
     </div>
   );
